@@ -1,0 +1,9 @@
+---
+applications:
+- instances: 1
+  name: springsessionpoc
+  buildpacks:
+  - java_buildpack_offline
+  memory: 1GB
+  random-route: true
+  path: D:\PivotalCloudFoundry\SpringSession_POC\SSNginx\SpringSessionExample\SpringSessionPoc.war 
